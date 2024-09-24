@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" 
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+
+        <div class="passo ativo" id="passo-0" >
+        <img src="cenario-passo0.jpg" alt="introdução a uma nova jornada">
+         <p> Sr.Wille: em um reino distante dos conhecimentos humanos, nasce uma pequena bolinha de 
+            pelos preta, mais leve que uma pena, "de onde eu sou?" é a pergunta que enche sua cabeça,
+            mas antes de responde-lá você precisa sair de onde está, uma pequena lagoa.
+              Saindo, há duas escolhas para você, pequeno avantureiro... </p>
+         <button class="btn-proximo" data-proximo = "1">IR PARA A CAVERNA</button>
+         <button class="btn-proximo" data-proximo = "2">IR PARA A FLORESTA</button>
+        </div>
+
+         <div class= "passo" id="passo-1">  
+          <p>A pequena bolinha, decide saltitar até uma grande caverna, tão escura, que se desconhece
+            o que se vive dentro dela, pode-se ouvir alguns barulhos vindo desse local, é melhor 
+            tomar cuidado. Apenas os mais corajosos gostam dessa aventura. (RISCO: 5%) 
+          </p>
+          <button class= "btn-proximo" data-proximo = "3">EXPLORAR A CAVERNA</button>
+          <button class= "btn-proximo" data-proximo = "4">"È melhor eu voltar..."</button>
+        </div>
+
+        <div class = "passo" id="passo-2">
+          <p> A pequena bolinha sentia que não deveria entrar em um local tão escuro, o medo percorria
+           em seu pequeno corpo, entretanto, uma luz interrompeu sua ansiedade, predendo sua atenção em
+           direção a uma floresta, as folhas pareciam ser feitas de cristais, pequenos seres assim como ele
+           habitavam a região, era tão vivo. A bolinha, sentindo-se mais confiante foi em direção ao local 
+           chamativo, andando pelo grande matagal, acabou esbarrando em livro desgastado, o tempo não teve
+           piedade com tal objeto... Mas o que será que tem nesse livro? (RISCO: 10%)</p>
+           <button class = "btn-proximo" data-proximo = "5">ABRIR O LIVRO</button>
+           <button class = "btn-proximo" data-proximo = "6">"Essa floresta é tão grande, acho que preciso explorar mais..."</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+          <p>Dentro da enorme caverna, a pequena bolinha sentiu uma adrenalina percorrer seu corpo tão 
+            pequeno, mas, cheio de energia. Andando pelo local vagamente iluminado por vaga-lumes, algo
+            estava emperrado no chão, a bolinha, intriga resolve cavar com muita dificuldade, pela primeira
+            vez, usava suas mãos tão pequenas. Depois de um tempo cavando, ela encontra um antigo pergaminho,
+            a curiosidade a atiçava...</p>
+          <button class="btn-proximo" data-proximo="7">LER O PERGAMINHO</button>
+      </div>
+  
+      <div class="passo" id="passo-4">
+      <img src="cenario-passo4-voltar.png" alt="imagem voltando para casa e desitindo da aventura">
+
+          <p>Alguns morcegos passam diante aos olhos da indefesa criatura, o melhor jeito que ela encontrou 
+            para não entrar em problemas, foi em fugir. A pequena bolinha, decidiu ficar em seu lago, o conforto
+            e a segurança eram garantidas. (VOCÊ NÂO FOI CORAJOSO O SUFICIENTE)</p>
+      </div>
+  
+      <div class="passo" id="passo-5">
+        <p>O livro revela que a bolinha precisa ter coragem para enfrenter seu destino, que era
+          entrar na caverna que tanto hesitava, lá estaria um pegarminho importante que revelaria sua 
+          missão nesse mundo.</p>
+        <button class="btn-proximo" data-proximo="7">IR PARA A CAVERNA ESCURA E EXPLORA-LÁ (VOCÊ ENCONTRA O PEGARMINHO)</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <p>Explorando mais a chamativa floresta, a bolinha não encontra muita coisa relevante, resolvendo
+          voltar para o ponto onde estava o livro misterioso.</p>
+        <button class="btn-proximo" data-proximo="8">VOLTAR E LER O LIVRO</button>
+    </div>
+
+      <div class="passo" id="passo-7">
+          <p>A bolinha descobre que o pegarminho tem uma mensagem escrita em outra língua, mas, por alguma razão,
+            você conhecia o signficado dessa mensagem: "ir a lagoa azul...mas, eu não sai de lá?". Não...
+            era essa lagoa, mas uma que estava aqui dentro. Ela não sabia como iria chegar, mas, o seu instinto
+            clamava mais alto por esse lugar desconhecido. A bolinha podia escolher dois caminhos....</p>
+          <button class="btn-proximo" data-proximo="9">IR PELA PASSAGEM DA ESQUERDA</button>
+          <button class="btn-proximo" data-proximo="10">IR PELA PASSAGEM DA DIREITA</button>
+      </div>
+  
+      <div class="passo" id="passo-8">
+          <p>Lendo o livro novamente e a forte mensagem de persistencia que carregava em sua leitura e 
+            sabedoria, a bolinha resolve se preparar para seu importante destino. Rumo a caverna!</p>
+          <button class="btn-proximo" data-proximo="7">ADENTRAR NA CAVERNA ESCURA E ACHAR O PERGAMINHO</button>
+      </div>
+  
+      <div class="passo" id="passo-9">
+          <p> O caminho à sua esquerda era rodeado de cristais, e pequenas poças de água preenchiam
+            o chão, o reflexo da bolinha era refletido, o que a surpreendia sua pequena forma
+            e como era tão delicada, entretanto, algo chama sua atençaõ, explorando o local ela acha
+            a lagoa azul que sonhava desde o seu nascimento, alguma coisa a aconselheva a entrar, e ela,
+            sem hesitar, resolve ter coragem para aceitar seu destino.</p>
+          <button class="btn-proximo" data-proximo="11">ENTRAR NA LAGOA AZUL</button>
+      </div>
+  
+      <div class="passo" id="passo-10">
+          <p>Oh! Não! A pequena bolinha se depara com um caminho sem saída, apenas os cristais a sua frente,
+            emebelezavam o local, é melhor retornar e seguir o caminho da esquerda.</p>
+          <button class="btn-proximo" data-proximo="12">RETORNAR E TENTAR A OUTRA PASSAGEM</button>
+      </div>
+  
+      <div class="passo" id="passo-11">
+        <img src="cenario-passo11.png" alt="encontrando uma lagoa que mudou o destino da pequena bolinha">
+          <p> SR. Wille: "No coração de uma floresta antiga e intocada, havia uma lagoa azul, brilhando como 
+            um pedaço de céu caído. As árvores ao redor sussurravam segredos antigos, e o ar estava carregado de 
+            uma magia antiga e esquecida. Foi ali que uma pequena bolinha luminosa flutuou, como se atraída por um 
+            chamado irresistível. Ela se aproximou da água cristalina, hesitante, mas curiosa...."</p>
+
+          <p>Assim que tocou a superfície, a lagoa respondeu com um brilho mais intenso, e imagens começaram a dançar nas águas 
+            calmas: visões de árvores sendo derrubadas, animais fugindo e a floresta perdendo sua vida. A bolinha, agora cercada 
+            por esses reflexos, entendeu seu propósito. Ela não era apenas um simples pedaço de luz; ela era parte de uma linhagem antiga, 
+            destinada a proteger aquele lugar sagrado contra os perigos que o mundo humano trazia.</p>
+            
+            <p>Compreender isso preencheu a bolinha com um novo senso de dever. A lagoa, antes apenas um destino formado em seus sonhos, 
+            havia se tornado o portal de uma revelação. A partir daquele momento, a bolinha sabia que sua existência tinha um 
+            propósito maior: vigiar a floresta, proteger suas árvores, suas criaturas e o frágil equilíbrio que sustentava aquele pequeno paraíso. 
+            Ela se elevou das águas, radiante e determinada, pronta para cumprir seu destino como guardiã da natureza.</p>
+      </div>
+  
+      <div class="passo" id="passo-12">
+          <p>Ao retornar e ir pela passagem da esquerda, a bolinha encontra a lagoa azul que tanto sonhou
+            antes de sair o mundo afora, sem hesitar, ela resolve ir em direção ao local.</p>
+          <button class="btn-proximo" data-proximo="11">ENTRAR NA LAGOA AZUL</button>
+      </div>  
+        
+      </div>
+    </main>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
